@@ -17,3 +17,7 @@ Aula 5: resolvendo o problema da aplicação fazer um novo request a cada nova r
 Aula 6 e 7: alteramos a exibição de artigos das páginas utilizando uma API pelo json-server (olhar o db.json) e consumindo-a no componente de posts para poder exibir as informações que lá estão. Utilizamos a biblioteca axios para fazer requisições no servidor para buscar artigos. Fizemos uma requisição de um artigo específico passando o id do curso, utilizando o useEffect.
 
 Aula 8: ao clicar em um headline de artigo, vamos redirecionar para o post correspondente (marcado pela key id). Para fazer isso funcionar utilizamos o hook useParams.
+
+Aula 9: vamos fazer o tratamento de erros de post inexistente (página inexistente) no /posts/.
+
+Aula 10: vamos implementar a funcionalidade para o usuário poder filtrar entre posts azuis e posts vermelhos.
