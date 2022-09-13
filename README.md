@@ -15,3 +15,5 @@ Aula 4: criamos o componente de cabeçalho da aplicação e passamos a utilizar 
 Aula 5: resolvendo o problema da aplicação fazer um novo request a cada nova rota que o usuário solicita, o comportamento deveria ser a página ser renderizada pelo js. Ao invés de usar âncoras e href, utiliza-se a função Link do react-router-dom.
 
 Aula 6 e 7: alteramos a exibição de artigos das páginas utilizando uma API pelo json-server (olhar o db.json) e consumindo-a no componente de posts para poder exibir as informações que lá estão. Utilizamos a biblioteca axios para fazer requisições no servidor para buscar artigos. Fizemos uma requisição de um artigo específico passando o id do curso, utilizando o useEffect.
+
+Aula 8: ao clicar em um headline de artigo, vamos redirecionar para o post correspondente (marcado pela key id). Para fazer isso funcionar utilizamos o hook useParams.
