@@ -13,3 +13,5 @@ Isso se deve ao fato de uma aplicação single page application fazer apenas uma
 Aula 4: criamos o componente de cabeçalho da aplicação e passamos a utilizar ele para todas as páginas. Montamos a navbar utilizando o React Router para simular uma MPA (Multi Pages Application).
 
 Aula 5: resolvendo o problema da aplicação fazer um novo request a cada nova rota que o usuário solicita, o comportamento deveria ser a página ser renderizada pelo js. Ao invés de usar âncoras e href, utiliza-se a função Link do react-router-dom.
+
+Aula 6 e 7: alteramos a exibição de artigos das páginas utilizando uma API pelo json-server (olhar o db.json) e consumindo-a no componente de posts para poder exibir as informações que lá estão. Utilizamos a biblioteca axios para fazer requisições no servidor para buscar artigos. Fizemos uma requisição de um artigo específico passando o id do curso, utilizando o useEffect.
