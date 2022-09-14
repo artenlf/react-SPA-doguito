@@ -18,6 +18,6 @@ Aula 6 e 7: alteramos a exibição de artigos das páginas utilizando uma API pe
 
 Aula 8: ao clicar em um headline de artigo, vamos redirecionar para o post correspondente (marcado pela key id). Para fazer isso funcionar utilizamos o hook useParams.
 
-Aula 9: vamos fazer o tratamento de erros de post inexistente (página inexistente) no /posts/.
+Aula 9: vamos fazer o tratamento de erros de post inexistente (página inexistente) no /posts/. Para isso utilizamos o hook useHistory.
 
-Aula 10: vamos implementar a funcionalidade para o usuário poder filtrar entre posts azuis e posts vermelhos.
+Aula 10: vamos implementar a funcionalidade para o usuário poder filtrar entre posts azuis e posts vermelhos. Utilizamos para isso uma rota aninhada, ou nested route, utilizando a função useRouteMatch para passar a categoria e o id que deve ser filtrado.
