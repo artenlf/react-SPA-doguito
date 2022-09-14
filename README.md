@@ -20,4 +20,6 @@ Aula 8: ao clicar em um headline de artigo, vamos redirecionar para o post corre
 
 Aula 9: vamos fazer o tratamento de erros de post inexistente (página inexistente) no /posts/. Para isso utilizamos o hook useHistory.
 
-Aula 10: vamos implementar a funcionalidade para o usuário poder filtrar entre posts azuis e posts vermelhos. Utilizamos para isso uma rota aninhada, ou nested route, utilizando a função useRouteMatch para passar a categoria e o id que deve ser filtrado.
+Aula 10 e 11: vamos implementar a funcionalidade para o usuário poder filtrar entre posts azuis e posts vermelhos. Utilizamos para isso uma rota aninhada, ou nested route, utilizando a função useRouteMatch para passar a categoria e o id que deve ser filtrado.
+
+Aula 12: criando subcategorias das categorias de artigo bem-estar e comportamento.
